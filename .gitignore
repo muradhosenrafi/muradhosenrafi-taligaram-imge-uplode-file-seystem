@@ -1,4 +1,17 @@
-node_modules/
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
 .env.example
 
-*.tsbuildinfo
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+.next/
+
+# Logs
+*.log
